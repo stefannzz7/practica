@@ -26,6 +26,7 @@ comentarii.forEach(e => {
     addComment(e.name,e.comment)
 })
 
+$('.owl-carousel').trigger('refresh.owl.carousel');
 
 
 function addComment(name,comentariu) { 
