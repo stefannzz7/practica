@@ -47,3 +47,7 @@ comentarii.push({name:name,comment:comentariu});
 
  $('.owl-carousel').trigger('refresh.owl.carousel');
 }
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
