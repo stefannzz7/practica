@@ -60,6 +60,7 @@ jQuery(function ($) {
 
     $('.testimonial-slider').owlCarousel({
         margin: 30,
+        nav:truе,
         responsive: {
             0: {
                 items: 1
@@ -72,6 +73,7 @@ jQuery(function ($) {
             }
         }
     });
+
 
     //goto top
     $('.gototop').click(function (event) {
