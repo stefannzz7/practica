@@ -30,8 +30,11 @@ $('.owl-carousel').trigger('refresh.owl.carousel');
 
 
 function addComment(name,comentariu) { 
-name == undefined ? name = document.querySelector("#commentForm > form > div.form-field > textarea").value :0
+name == undefined ? name = document.querySelector("#commentForm > form > input").value :0
+
 comentariu==undefined ? comentariu=document.querySelector("#commentForm > form > div.form-field > textarea").value:0
+
+comentarii.push({name:name,comment:comentariu});
 
  $('.owl-carousel').owlCarousel('add',  `
  <div class="single-slide">
@@ -41,4 +44,6 @@ comentariu==undefined ? comentariu=document.querySelector("#commentForm > form >
  </div>
 </div>
  `).owlCarousel('update');
+
+ $('.owl-carousel').trigger('refresh.owl.carousel');
 }
