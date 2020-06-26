@@ -820,7 +820,9 @@ span.bar-width::after {
 .panel-default {
     border-color: transparent;
 }
-
+#commentForm {
+    display: none;
+}
 .panel-default>.panel-heading,
 .panel {
     background-color: #e6e6e6;
@@ -2182,7 +2184,7 @@ ul.sidebar-gallery{
     border-radius: 5px;
 }
 .comment-form form textarea{
-    width: 100%;
+    width: 75%;
     height: 200px;
     resize: none;
     background-color: #FAFAFA;
@@ -2225,6 +2227,10 @@ ul.sidebar-gallery{
     margin-bottom: 40px;
 }
 
+#comentariuform {
+    border: #1f1f20;
+    border-width: 2px;
+}
 #error p {
     color: #ffffff;
     font-size: 48px;
