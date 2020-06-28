@@ -51,3 +51,12 @@ comentarii.push({name:name,comment:comentariu});
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+function checkCustom () { 
+  console.log("Ah i see you're a man of culture as well")
+  document.querySelector("#customBox").style.display ="block"
+}
+function hideCustom() { 
+  document.querySelector("#customBox").style.display ="none"
+}
+
