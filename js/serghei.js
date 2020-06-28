@@ -60,3 +60,14 @@ function hideCustom() {
   document.querySelector("#customBox").style.display ="none"
 }
 
+// STEFAN
+
+
+
+
+
+
+
+
+
+
