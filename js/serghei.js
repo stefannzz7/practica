@@ -51,3 +51,17 @@ comentarii.push({name:name,comment:comentariu});
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+// STEFAN
+
+
+
+
+
+
+
+
+
+
+
+
