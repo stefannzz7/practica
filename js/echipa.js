@@ -213,6 +213,13 @@ function filterMonth (month) {
 
 // STEFAN
 
+$(function () {
+  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  });
+
+  ///
+
+
 
 
 
